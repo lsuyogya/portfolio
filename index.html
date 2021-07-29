@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title id="title"> PortFolio </title>
+    <style>
+        div.home_img {
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            left: 95%;
+            top: 29%;
+            border-radius: 50%;
+            background-color: black;
+        }
+
+        div.flipContainer {
+            position: relative;
+            top: 5%;
+            height: 80%;
+            width: 15%;
+            margin: 1.5% 4.2%;
+            float: left;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <div class="wrapper">
+        <header>
+            <img src="Images/logo.png" alt="LOGO" class="header_logo">
+
+            <span class="header_heading">Portfolio<span>
+        </header>
+
+        <nav>
+            <div class="hamburger" id="menu">
+                <span class="ham_lines" style="margin-top: 20%;"></span>
+                <span class="ham_lines"></span>
+                <span class="ham_lines"></span>
+                <span style="position: absolute; color: cornsilk; bottom: 1%; left: 34%;"> Explore! </span>
+            </div>
+
+            <div class="nav" id="nav">
+                <!-------------------------------------navigation bar /----------------------------------------->
+
+                <ul id="navContainer">
+                    <li style="background-color:burlywood; color:#010016;" id="navHome">Home</li>
+                    <li id="navCV">CV</li>
+                    <li id="navBlog">Blog</li id="navBlog">
+                    <li id="navRes">Research</li>
+                    <li id="navCon">Contact Us</li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <main>
+            <!-----------------------------First ""Page""-------------------------------->
+            <div class="home" id="nav1">
+                <div class="home_img">
+                    <img src="Images/beardman.jpg"
+                        style="border-radius: 50%; display: block; margin:0%; width: 98%; height: 98%;">
+                </div>
+                <!--Flipping card in X axis-->
+                <div class="flipContainer">
+                    <div class="coolHoverFlipThing">
+                        <div class="frontFace">CV</div>
+                        <div class="backFace">
+                            <section style="text-align: center; margin: 5px auto; font-size: 24px;">CV</section>
+                            <section style="margin: 50px 5px;"> This page comprises of the details of my career as well
+                                as my life.</section>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--Flipping card in X axis-->
+                <div class="flipContainer">
+                    <div class="coolHoverFlipThing">
+                        <div class="frontFace"
+                            style=" background-image: linear-gradient(to bottom ,#ff9900c5, #805009, #805009, #ff9900c5)">
+                            Blog</div>
+                        <div class="backFace">
+                            <section style="text-align: center; margin: 5px auto; font-size: 24px;">Blog</section>
+                            <section style="margin: 50px 5px;"> This page focuses on the blog about the impact of
+                                internet technology in my life.</section>
+
+                        </div>
+                    </div>
+                </div>
+                <!--Flipping card in X axis-->
+                <div class="flipContainer">
+                    <div class="coolHoverFlipThing">
+                        <div class="frontFace"
+                            style=" background-image: linear-gradient(to bottom ,#ff9900c5, #805009, #805009, #ff9900c5)">
+                            Research</div>
+                        <div class="backFace">
+                            <section style="text-align: center; margin: 5px auto; font-size: 24px;">Research</section>
+                            <section style="margin: 50px 5px;"> This page showcases what inspired me to create this
+                                webpage and contrasts the two sites based on the element that inspired me.</section>
+
+                        </div>
+                    </div>
+                </div>
+                <!--Flipping card in X axis-->
+                <div class="flipContainer">
+                    <div class="coolHoverFlipThing">
+                        <div class="frontFace"
+                            style=" background-image: linear-gradient(to bottom left,#ff9900c5, #805009, #805009, #ff9900c5)">
+                            Contact Us</div>
+                        <div class="backFace">
+                            <section style="text-align: center; margin: 5px auto; font-size: 24px;">Contact Us</section>
+                            <section style="margin: 50px 5px;"> This page provides the viewers a way to submit their
+                                feedbacks in the form of a form.</section>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------------------Second ""Page""------------------------------->
+            <div class="cv" id="nav2">
+                <div class="cvBackground"></div>
+
+                <div class="intro">
+                    <div class="coolHoverFlipThing">
+                        <div class="frontFace" style="height: 100%; width: 100%;">About Me</div>
+                        <div class="backFace" style="border-radius: 0.5em 2em 0.5em 2em;">
+                            <div class="home_img" style="top:3%; left: 65%; height: 100px; width: 100px;">
+                                <img src="Images/beardman.jpg"
+                                    style="border-radius: 50%; display: block; margin:0%; width: 98%; height: 98%;">
+                            </div>
+                            <section style="padding: 10px; margin-top: 20px;">
+                                Name: Suyogya Luitel<br>Addres: Kalanki<br>
+                                Email: lsuyogya@gmail.com <br><br>An aspiring front end developer with knowledge of
+                                object oriented
+                                Programming.
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="techSkills">
+                    <div class="coolHoverFlipThing">
+                        <div class="frontFace" style="height: 100%; width: 100%;">Techncial Skills</div>
+                        <div class="backFace" style="border-radius: 0.5em;">
+                            <div class="home_img" style="top:10%; left: 65%; height: 100px; width: 100px;">
+                                <img src="Images/technicalman.jpg"
+                                    style="border-radius: 50%; display: block; margin:0%; width: 98%; height: 98%;">
+                            </div>
+                            <section style="margin: 10px;">
+                                Front-end Developmet<br>
+                                Python Programming<br>
+                                Java Programming<br>
+                                Android Developmet<br>
+                                Graphics Design<br>
+                                MS Office<br>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hobbies">
+                    <div class="coolHoverFlipThing">
+                        <div class="frontFace" style="height: 100%; width: 100%;">Hobbies</div>
+                        <div class="backFace" style="border-radius: 2em 0.5em 2em 0.5em;">
+                            <div class="home_img" style="top:10%; left: 50%; height: 120px; width: 120px;">
+                                <img src="Images/hobbies.jpg"
+                                    style="border-radius: 50%; display: block; margin:0%; width: 98%; height: 98%;">
+                            </div>
+                            <section style=" padding: 10% 10px;">
+                                Esports<br>
+                                Animation<br>
+                                Music<br>
+                                Blogging<br>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education">
+                    <div class="coolHoverFlipThing">
+                        <div class="frontFace" style="height: 100%; width: 100%;">Education</div>
+                        <div class="backFace" style="border-radius: 2em 0.5em 2em 0.5em;">
+                            <div class="home_img" style="top:38%; left: 80%; height: 50px; width: 50px;">
+                                <img src="Images/college.png"
+                                    style="border-radius: 50%; display: block; margin:0%; width: 98%; height: 98%;">
+                            </div>
+                            <section style="padding: 15px;">
+                                EDUCATION<br>
+                                Bachelors: Islington College (Ongoing)<br>
+                                +2 : Uniglobe SS <br>
+                                S.E.E : Gyankunj SS <br><br>
+                                EXPERIENCE<br>
+                                Hackathon for Android Development<br>
+                                Hackathon for Web Devlopment
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subSkills">
+                    <div class="coolHoverFlipThing">
+                        <div class="frontFace" style="height: 100%; width: 100%;">Subskills</div>
+                        <div class="backFace" style="border-radius: 2em 0.5em 2em 0.5em;">
+                            <section style="padding: 15px 10px;">
+                                Leadership<br>
+                                Calm Personality<br>
+                                Art of Persuation<br>
+                                Community Building Skill<br>
+                                Knowledge of 3 languages:<br>
+                                <ul style="display: table-cell;">
+                                    <li>Nepali</li>
+                                    <li>English</li>
+                                    <li>Japanese</li>
+                                </ul>
+
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-----------------------------------Third ""Page""------------------------------->
+            <div class="blog" id="nav3">
+                <div class="paraTitle"> Impact of Internet Technology</div>
+                <div class="para" id="blogPara1" style="position: absolute; top: 9%; left:0">
+                    First Paragraph. <br><br> Click to open
+                </div>
+                <div class="para" id="blogPara2" style="position:absolute;top: 30%; right: 0%;">Second
+                    Paragraph<br><br>Click to open</div>
+                <div class="para" id="blogPara3" style="position:absolute; bottom: 26%; left: 0%;">Third Paragraph
+                    <br><br> Click to open</div>
+                <div class="para" id="blogPara4" style="position:absolute; bottom: 5%; right: 0%;">Fourth Paragraph
+                    <br><br> Click to open </div>
+            </div>
+            <!-----------------------------------Fourth ""Page""------------------------------->
+            <div class="research" id="nav4">
+                <div class="researchContainer" style="float: left;">
+                    <div class="imageleft"><a href="https://metaconf.net/" target="blank"><img
+                                src="Images/navbarRef.png"></a></div>
+                    <div class="imageright"><img src="Images/navbarMy.png"></div>
+                    <div class="text">
+                        <section style="padding: 10px;">
+                            The navigation bar in the site I researched would smoothly slide in from the right. I tried
+                            to imitate this motion in my page.
+                        </section>
+                    </div>
+                </div>
+                <div class="researchContainer" style="float: right;">
+                    <div class="imageleft"><a href="https://foundation.zurb.com/building-blocks/blocks/flip-card.html"
+                            target="blank"><img src="Images/flipRef.png"></a></div>
+                    <div class="imageright"><img src="Images/flipMy.png"></div>
+                    <div class="text">
+                        <section style="padding: 10px;">
+                            There were cards in the site I researched which would flip when hovered over in the y-axis.
+                            The cards in home and cv section in my page flip when hovered over, but in the x-axis.
+                        </section>
+                    </div>
+                </div>
+                <div class="researchContainer" style="float: left;">
+                    <div class="imageleft"><a href="https://wholedesignstudios.com/" target="blank"><img
+                                src="Images/transNavRef.png"></a></div>
+                    <div class="imageright"><img src="Images/transNavMy.png"></div>
+                    <div class="text">
+                        <section style="padding: 10px;">
+                            This site had a transparent navigation bar which really complimented the appearence of the
+                            site. Similarly, in my site too, there is a transpaent navigation bar.
+                        </section>
+                    </div>
+                </div>
+                <div class="researchContainer" style="float: left;">
+                    <div class="imageleft"><a href="https://marvelapp.com/signup" target="blank"><img
+                                src="Images/contactusRef.png"></a></div>
+                    <div class="imageright"><img src="Images/contactusMy.png"></div>
+                    <div class="text">
+                        <section style="padding: 10px;">
+                            The site I researched had a light background and a form asking for minimum details. The form
+                            covered half the page. In my webpage, however, the form is situated in the middle of the
+                            site.
+                        </section>
+                    </div>
+                </div>
+
+                <div class="researchContainer" style="float: left;">
+                    <div class="imageleft"><a href="https://www.jessica-caldwell.com/" target="blank"><img
+                                src="Images/footerRef.png"></a></div>
+                    <div class="imageright"><img src="Images/footerMy.png"></div>
+                    <div class="text">
+                        <section style="padding: 10px;">
+                            The site I researched used icons hyperlinked to social media. This seemed to give viewers a
+                            way to connect with the site via social media. In my website too, there are icons
+                            hyperlinked to their corresponding social media.
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+            <!-----------------------------------Fifth ""Page""------------------------------->
+            <div class="contact_us" id=nav5>
+
+                <form name="contactForm" onsubmit="validateForm()">
+                    <p>First Name: <span style="color: red;">*</span> <br><input type="text" name="fname"
+                            placeholder="Harry"> </p>
+                    <p>Last Name: <span style="color: red;">*</span> <br> <input type="text" name="lname"
+                            placeholder="Potter"> </p>
+                    <p>Email: <span style="color: red;">*</span> <br> <input type="text" name="email"
+                            placeholder="iamhuman@fastmail.com"> </p>
+                    <p>Gender: <br> <input type="radio" name="gender" value="male" checked> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </p>
+                    <p>Message: <span style="color: red;">*</span> <br> <textarea name="message" rows="5" cols="50"
+                            placeholder="Enter Message.."></textarea></p>
+                    <p><input type="submit" value="Send"></p>
+                </form>
+
+            </div>
+        </main>
+        <footer>
+            <div class="footericon" style="left: 45%;"><a href="https://www.facebook.com/suyogya.luitel.9"
+                    target="blank"><img src="Images/fb.png"><a></div>
+            <div class="footericon" style="left: 55%;"><a href="https://www.linkedin.com/in/suyogya-luitel-b1b132158/"
+                    target="blank"><img src="Images/linkedin.png"></a></div>
+            <div class="footericon" style="left: 50%;"><a
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsCXBbQtcHXwtSVqLCBjjCRcQBNGhdbCssVTlvZGvZLhsfwgSvsvxkgwLlTnHXNLNkbWkTqV"
+                    target="blank"><img src="Images/gmail.png"></a></div>
+        </footer>
+    </div>
+
+    <script>
+        function validateForm() {
+            var fname = document.forms["contactForm"]["fname"].value;
+            var lname = document.forms["contactForm"]["lname"].value;
+            var email = document.forms["contactForm"]["email"].value;
+            var message = document.forms["contactForm"]["message"].value;
+
+            if (fname != "" && lname != "" && message != "" && email != "") {
+                alert("Thank you for your feedback.");
+            } else {
+                alert("Please fill all the fields having * indicator.");
+            }
+        }
+    </script>
+</body>
+
+</html>
